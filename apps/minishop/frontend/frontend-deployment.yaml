@@ -29,7 +29,7 @@ spec:
                 topologyKey: kubernetes.io/hostname   
       containers:
         - name: frontend
-          image: 671662643382.dkr.ecr.us-east-1.amazonaws.com/minishop-frontend:8ea513d43102b2bd9c6b05444bbb29c74ec63bdb
+          image: 671662643382.dkr.ecr.us-east-1.amazonaws.com/minishop-frontend:f3353c2f1a55b82ada9ee8b2736216aa90034a2d
 
           ports:
             - containerPort: 80
